@@ -1,23 +1,23 @@
 body {
     background-color: #3CDBC0;
     }
-.header {
+.header-container {
     width: 100%;
     position: fixed;
-    align-content: center;
     top: 0px;
     left:0px;
-    display: flex;
-    flex-flow: column;
     background-color: white;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 .logo-header {
     width: 100%;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
-.menu{
-
+.menu {
     display:flex;
     orientation: row;
     justify-items: center;
@@ -27,8 +27,29 @@ body {
     font-family:  'Rubik', sans-serif;
     font-size: 16px;
 }
+.menu-list {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    }
 .main-web {
+    margin-top: 300px;
     background-color: #3CDBC0;
     font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    color:#FFFFFF;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
+.main-text {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+@media all and (min-width:768px)
