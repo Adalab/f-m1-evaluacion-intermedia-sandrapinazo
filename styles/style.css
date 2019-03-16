@@ -29,6 +29,7 @@ body {
     padding: 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .menu-link {
     text-decoration: none;
@@ -57,6 +58,20 @@ body {
 
 @media all and (min-width:768px) {
     .logo-header {
-        margin: 20px, 30px;
+        margin: 20px 30px;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-text {
+        font-size: 40px;
+    }
+    .menu-list {
+        margin: 0 20px;
+    }
+    .menu-link {
+        font-size: 16px;
     }
 }
